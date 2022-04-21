@@ -1,0 +1,1 @@
+window.addEventListener("load",(()=>{e()}));const e=()=>{const e=document.querySelectorAll(".menu_item");e.forEach((o=>{o.addEventListener("click",(t=>{e.forEach((e=>{t.composedPath().includes(o)||e.classList.remove("opened")})),o.querySelector(".submenu")&&o.classList.toggle("opened")}))}))};
